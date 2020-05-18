@@ -1,0 +1,174 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family:Roboto;
+}
+
+.nagybetu{
+	text-transform:uppercase;
+	letter-spacing:5px;
+	font-size:16px;
+}
+
+div#container{
+	min-width:1400px;
+	height:100vh;	
+}
+
+/*fejlec*/
+div#fejlec{
+	height:100px;
+	width:1300px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+ul{
+	list-style:none;
+}
+
+ul#menu li{
+	float:left;		
+}
+
+ul#menu div#logodiv{
+	width:250px;
+	height:100px;
+	margin-top:0px;
+}
+
+img#logoimg{
+	width:115%;
+	height:115%;
+}
+
+ul#menu div{
+	width:230px;
+	height:20px;
+	text-align:right;
+	margin-top:75px;
+}
+
+ul#menu div#divbemutat{
+	width:350px;
+}
+
+ul#menu a{
+	text-decoration:none;
+	color:black;
+}
+
+ul#menu a:hover{
+	font-weight:bold;
+}
+ul#menu a.aktiv{
+	font-weight:bold;
+}
+/*tartalom*/
+div#content {
+	width:1300px;	
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:100px;
+	padding-bottom:100px;
+}
+
+div#title{
+	width:300px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:5px;
+	text-align:left;
+	border-bottom: 3px solid black;
+}
+
+div#parts{
+	width:1300px;
+	min-height:300px;
+    padding-bottom:50px;	
+}
+
+img#picture{	
+	float:left;
+}
+
+p#text {
+	padding-left:500px;
+	padding-top:15px;	
+	text-align:justify;
+	line-height:2.5;
+	font-size:14px;
+	
+}
+div#info{
+	background-color:black;	
+	min-width:1400px;
+	height:60px;
+	margin-top:60px;
+	/*position:-webkit -sticky;*/
+	position:sticky;
+	top:100vh;
+	overflow:hidden;
+	
+}
+
+div#block{
+	width:1200px;
+	height:60px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+ul#contact li{
+	float:left;
+}
+
+ul#contact div{
+	width:400px;
+	height:40px;
+	padding-top:20px;
+	color:white;
+	text-align:center;
+}
+
+ul#contact a{
+	text-decoration:none;
+	color:white;
+}
+
+	
+table#data{
+	padding-left:233px;
+	width:800px;
+	height:250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
